@@ -1,0 +1,51 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '登录成功' in '用户名或者密码输入错误，请重新输入!'\n +  where '用户名或者密码输入错误，请重新输入!' = <bound method VhrPage.find_msg of <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DF59C8>>()\n +    where <bound method VhrPage.find_msg of <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DF59C8>> = <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DF59C8>.find_msg",
+      "children" : [ {
+        "name" : "test_login[admin-123-123]",
+        "uid" : "4778b97c016b6b73",
+        "parentUid" : "5fdba3dd306bf35d92fd695a72819638",
+        "status" : "failed",
+        "time" : {
+          "start" : 1664508215829,
+          "stop" : 1664508220320,
+          "duration" : 4491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "123", "123", "'admin'" ]
+      } ],
+      "uid" : "5fdba3dd306bf35d92fd695a72819638"
+    }, {
+      "name" : "AssertionError: assert '登录成功' in '验证码不正确'\n +  where '验证码不正确' = <bound method VhrPage.find_msg of <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DA7888>>()\n +    where <bound method VhrPage.find_msg of <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DA7888>> = <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DA7888>.find_msg",
+      "children" : [ {
+        "name" : "test_login[admin-123-abc]",
+        "uid" : "a7bf050ebf97cc8f",
+        "parentUid" : "2eff14a9177d7c48d7d06c56b0d72e5f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1664508220380,
+          "stop" : 1664508221809,
+          "duration" : 1429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'abc'", "123", "'admin'" ]
+      } ],
+      "uid" : "2eff14a9177d7c48d7d06c56b0d72e5f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

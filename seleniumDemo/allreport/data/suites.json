@@ -1,0 +1,102 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "scriptsDir",
+    "children" : [ {
+      "name" : "test_vhr",
+      "children" : [ {
+        "name" : "Test_Vhr",
+        "children" : [ {
+          "name" : "test_login[admin-123-123]",
+          "uid" : "4778b97c016b6b73",
+          "parentUid" : "2e19546d6362b51f0edc0f94d3084060",
+          "status" : "failed",
+          "time" : {
+            "start" : 1664508215829,
+            "stop" : 1664508220320,
+            "duration" : 4491
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "123", "123", "'admin'" ]
+        }, {
+          "name" : "test_login[admin-123-abc]",
+          "uid" : "a7bf050ebf97cc8f",
+          "parentUid" : "2e19546d6362b51f0edc0f94d3084060",
+          "status" : "failed",
+          "time" : {
+            "start" : 1664508220380,
+            "stop" : 1664508221809,
+            "duration" : 1429
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "'abc'", "123", "'admin'" ]
+        }, {
+          "name" : "test_login[admin-456-123]",
+          "uid" : "61c98a11aad386e3",
+          "parentUid" : "2e19546d6362b51f0edc0f94d3084060",
+          "status" : "passed",
+          "time" : {
+            "start" : 1664508221818,
+            "stop" : 1664508223091,
+            "duration" : 1273
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "123", "456", "'admin'" ]
+        }, {
+          "name" : "test_search[江南一点雨]",
+          "uid" : "770632c7155d49e8",
+          "parentUid" : "2e19546d6362b51f0edc0f94d3084060",
+          "status" : "passed",
+          "time" : {
+            "start" : 1664508223095,
+            "stop" : 1664508225732,
+            "duration" : 2637
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "'江南一点雨'" ]
+        }, {
+          "name" : "test_search[test]",
+          "uid" : "122bc915211fbf21",
+          "parentUid" : "2e19546d6362b51f0edc0f94d3084060",
+          "status" : "passed",
+          "time" : {
+            "start" : 1664508225735,
+            "stop" : 1664508228169,
+            "duration" : 2434
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "'test'" ]
+        } ],
+        "uid" : "2e19546d6362b51f0edc0f94d3084060"
+      } ],
+      "uid" : "30d8c8b1eaed953243aa7c9908888367"
+    } ],
+    "uid" : "737cb70143270c151fb396280c995bf6"
+  } ]
+}

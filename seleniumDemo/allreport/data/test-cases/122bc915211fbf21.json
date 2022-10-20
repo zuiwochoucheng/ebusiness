@@ -1,0 +1,93 @@
+{
+  "uid" : "122bc915211fbf21",
+  "name" : "test_search[test]",
+  "fullName" : "scriptsDir.test_vhr.Test_Vhr#test_search",
+  "historyId" : "859a7d69c0e069b48ad1f04193496a59",
+  "time" : {
+    "start" : 1664508225735,
+    "stop" : 1664508228169,
+    "duration" : 2434
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Vhr",
+    "time" : {
+      "start" : 1664508214436,
+      "stop" : 1664508215828,
+      "duration" : 1392
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_Vhr::0",
+    "time" : {
+      "start" : 1664508228170,
+      "stop" : 1664508235399,
+      "duration" : 7229
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scriptsDir"
+  }, {
+    "name" : "suite",
+    "value" : "test_vhr"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Vhr"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-AR44K6QB"
+  }, {
+    "name" : "thread",
+    "value" : "32128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scriptsDir.test_vhr"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "sn",
+    "value" : "'test'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "122bc915211fbf21.json",
+  "parameterValues" : [ "'test'" ]
+}

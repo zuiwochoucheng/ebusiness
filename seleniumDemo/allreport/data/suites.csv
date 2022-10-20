@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Sep 30 11:23:43 GMT+08:00 2022","Fri Sep 30 11:23:45 GMT+08:00 2022","2637","scriptsDir","test_vhr","Test_Vhr","","","test_search[江南一点雨]",""
+"failed","Fri Sep 30 11:23:35 GMT+08:00 2022","Fri Sep 30 11:23:40 GMT+08:00 2022","4491","scriptsDir","test_vhr","Test_Vhr","","","test_login[admin-123-123]",""
+"passed","Fri Sep 30 11:23:41 GMT+08:00 2022","Fri Sep 30 11:23:43 GMT+08:00 2022","1273","scriptsDir","test_vhr","Test_Vhr","","","test_login[admin-456-123]",""
+"passed","Fri Sep 30 11:23:45 GMT+08:00 2022","Fri Sep 30 11:23:48 GMT+08:00 2022","2434","scriptsDir","test_vhr","Test_Vhr","","","test_search[test]",""
+"failed","Fri Sep 30 11:23:40 GMT+08:00 2022","Fri Sep 30 11:23:41 GMT+08:00 2022","1429","scriptsDir","test_vhr","Test_Vhr","","","test_login[admin-123-abc]",""

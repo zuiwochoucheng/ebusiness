@@ -1,0 +1,99 @@
+{
+  "3b4394e2e4b73edb9f95dc860da2d1a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "61c98a11aad386e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664508221818,
+        "stop" : 1664508223091,
+        "duration" : 1273
+      }
+    } ]
+  },
+  "5870e8b720ab0f57a73ac6f6338fdf4e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "770632c7155d49e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664508223095,
+        "stop" : 1664508225732,
+        "duration" : 2637
+      }
+    } ]
+  },
+  "aeda58cc96980377e1697420b018fe3b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4778b97c016b6b73",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '登录成功' in '用户名或者密码输入错误，请重新输入!'\n +  where '用户名或者密码输入错误，请重新输入!' = <bound method VhrPage.find_msg of <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DF59C8>>()\n +    where <bound method VhrPage.find_msg of <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DF59C8>> = <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DF59C8>.find_msg",
+      "time" : {
+        "start" : 1664508215829,
+        "stop" : 1664508220320,
+        "duration" : 4491
+      }
+    } ]
+  },
+  "859a7d69c0e069b48ad1f04193496a59" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "122bc915211fbf21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1664508225735,
+        "stop" : 1664508228169,
+        "duration" : 2434
+      }
+    } ]
+  },
+  "06b383fb9ed48201c53b7d5bc0a8d937" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7bf050ebf97cc8f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '登录成功' in '验证码不正确'\n +  where '验证码不正确' = <bound method VhrPage.find_msg of <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DA7888>>()\n +    where <bound method VhrPage.find_msg of <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DA7888>> = <pageDir.page_vhr_login.VhrPage object at 0x0000029B73DA7888>.find_msg",
+      "time" : {
+        "start" : 1664508220380,
+        "stop" : 1664508221809,
+        "duration" : 1429
+      }
+    } ]
+  }
+}
